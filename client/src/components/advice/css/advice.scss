@@ -1,0 +1,67 @@
+@import '../../../css/vars/vars';
+.header {
+    &AdviceContainer {
+        visibility: visible;
+        opacity: 1;
+        position: absolute;
+        border-radius: 4px;
+        padding: 40px;
+        background-color: $clr-white;
+        max-width: 480px;
+        left: 25%;
+        z-index: 4;
+        bottom: 50px;
+        box-shadow: 1px 4px 14px rgba(0, 0, 0, 0.24);
+        display: flex;
+        flex-direction: column;
+        transition: 1s ease-in-out;
+        &Grid {
+            display: grid;
+            grid-template-columns: 60px 1fr;
+            gap: 1.5rem;
+            padding: 15px 0;
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: 1px;
+            align-items: center;
+        }
+        &H5 {
+            font-weight: 500;
+            margin: 10px 0 25px 0;
+            font-size: 12px;
+        }
+        &Icon {
+            text-align: center;
+        }
+        &Desc {
+            font-weight: 400;
+            font-size: 11px;
+        }
+        &Close {
+            display: none;
+        }
+        &.inactive {
+            visibility: hidden;
+            opacity: 0;
+            transition: 1s ease-in-out;
+            left: -120%;
+        }
+        @media (max-width:770px) {
+            width: 90%;
+            top: 150px;
+            left: 50%;
+            transform: translateX(-50%);
+            max-height: 500px;
+            overflow: scroll;
+            &Close {
+                margin-top: 25px;
+                display: inline-block;
+                border: none;
+                outline: none;
+                background-color: #0D98C7;
+                padding: 6px;
+                color: $clr-white;
+            }
+        }
+    }
+}

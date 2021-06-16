@@ -1,0 +1,45 @@
+@import '../../../css/vars/vars';
+.sideInfo {
+    background-color: $bg-color;
+    width: 90%;
+    word-wrap: break-word;
+    overflow: scroll;
+    padding: 40px 10px;
+    margin-top: -50px;
+    border: 1px solid $clr-gray-209;
+    border-radius: 4px;
+    text-align: center;
+    &::-webkit-scrollbar {
+        width: 0;
+    }
+    h3 {
+        margin-bottom: 15px;
+        letter-spacing: 1px;
+        color: $clr-light;
+    }
+    h4 {
+        color: $clr-gray-144;
+        font-weight: 500px;
+        @media (max-width: 770px) {
+            font-size: 12px;
+        }
+    }
+}
+
+.sideStar {
+    font-size: 35px!important;
+    cursor: pointer;
+    color: #0D98C7;
+    @media (max-width: 770px) {
+        font-size: 25px!important;
+    }
+}
+
+.sideCounter {
+    font-weight: 500;
+    font-size: 35px;
+    color: $clr-light;
+    @media (max-width: 770px) {
+        font-size: 25px!important;
+    }
+}

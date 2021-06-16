@@ -1,0 +1,23 @@
+article {
+  position: absolute;
+  width: calc(100% - 20%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 85px;
+  height: calc(100vh - 85px);
+  left: 0;
+  z-index: 1;
+}
+
+article .grain {
+  font-size: 300px !important;
+  color: rgba(0, 0, 0, 0.15);
+}
+/*# sourceMappingURL=main.css.map */
