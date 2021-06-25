@@ -14,7 +14,6 @@ function App() {
         <Route exact path="/dashboard">
           <Dashboard/>
         </Route>
-
       </Switch>
     </Router>
     </div>
