@@ -23,21 +23,21 @@ const Advice = () =>{
         </div>
         <hr className="headerHr" />
         <div className="headerAdviceContainerGrid">
-        <div className="headerAdviceContainerIcon">  <Search  className="headerSearchIcon" titleAccess="Buscar Participantes" style={{cursor:"default"}}  /></div>
+        <div className="headerAdviceContainerIcon"> <Search className="headerSearchIcon" titleAccess="Buscar Participantes" style={{cursor:"default"}}  /></div>
         <div className="headerAdviceContainerDesc">
             Este icono funciona para buscar a los participantes registrados previamente en el sistema, ingresando su numero telefonico y poder asignar una o más estrellas.
         </div>
         </div>
         <hr className="headerHr" />
         <div className="headerAdviceContainerGrid">
-        <div className="headerAdviceContainerIcon">            <HelpOutline   titleAccess="Ayuda" style={{cursor:"default"}} className="headerIconHelp" /></div>
+        <div className="headerAdviceContainerIcon"><HelpOutline titleAccess="Ayuda" style={{cursor:"default"}} className="headerIconHelp" /></div>
         <div className="headerAdviceContainerDesc">
             Al dar clic muestra este menu de ayuda.
         </div>
         </div>
         <hr className="headerHr" />
         <div className="headerAdviceContainerGrid">
-        <div className="headerAdviceContainerIcon">            <img style={{marginLeft:"18px"}} className="headerImgLogin" src="https://www.licor.com/fluxsuite/images/demo.png" alt="" title="Hola Demo"/></div>
+        <div className="headerAdviceContainerIcon"><img style={{marginLeft:"18px"}} className="headerImgLogin" src="https://www.licor.com/fluxsuite/images/demo.png" alt="" title="Hola Demo"/></div>
         <div className="headerAdviceContainerDesc">
           Muestra el usuario que esta usando el sistema.
         </div>
