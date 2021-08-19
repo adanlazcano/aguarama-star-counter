@@ -7,7 +7,7 @@ import SideInformation from '../sideinformation/SideInformation';
 
 // Right Bar
 
-const API_URL = 'https://agua-rama.herokuapp.com/api/client';
+const API_URL = process.env.REACT_APP_API_URL;
 
 const Sidebar = ({search}) => {
 
