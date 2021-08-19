@@ -6,7 +6,7 @@ import { AddCircle, RemoveCircle } from '@material-ui/icons';
 
 // Add and Remove Stars to Participant container
 
-const API_URL = 'https://agua-rama.herokuapp.com/api/client';
+const API_URL = process.env.REACT_APP_API_URL;
 
 const SideInformation = ({client}) => {
 
