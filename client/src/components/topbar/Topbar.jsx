@@ -7,7 +7,7 @@ import Main from '../main/Main';
 import Advice from '../advice/Advice';
 import axios from 'axios';
 
-const API_URL = 'https://agua-rama.herokuapp.com/api/client';
+const API_URL = 'process.env.REACT_APP_API_URL';
 
 // Top Bar Header
 
