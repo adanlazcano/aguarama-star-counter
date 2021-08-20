@@ -16,6 +16,6 @@ When filling a jug, the customer is assigned a star, when they accumulate 5 fill
 
 [Visit the page](https://aguarama.netlify.app)
 
-[Visit side server repo](https://github.com/adanlazcano/aguarama-star-counter-server)
+[Visit server side repo](https://github.com/adanlazcano/aguarama-star-counter-server)
 
 
