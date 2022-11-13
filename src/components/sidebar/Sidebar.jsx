@@ -13,22 +13,17 @@ const Sidebar = ({ search }) => {
 
   useEffect(
     (_) => {
-      let timeOut;
       const getClient = async (_) => {
         if (search) {
           const res = await services.getClient(search);
-
-          timeOut = setTimeout(() => {
-            setClient(res.data);
-            setLoading(false);
-          }, 500);
+          setClient(res.data);
+          setLoading(false);
         }
       };
       getClient();
       return (_) => {
         setClient(null);
         setLoading(true);
-        clearTimeout(timeOut)
       };
     },
     [search]
