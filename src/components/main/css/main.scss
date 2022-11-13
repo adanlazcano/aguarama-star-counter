@@ -1,0 +1,15 @@
+article {
+    position: absolute;
+    width: calc(100% - 20%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 85px;
+    height: calc(100vh - 85px);
+    left: 0;
+    z-index: 1;
+    .grain {
+        font-size: 300px!important;
+        color: rgba(0, 0, 0, 0.15);
+    }
+}
